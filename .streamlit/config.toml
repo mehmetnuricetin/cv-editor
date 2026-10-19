@@ -1,0 +1,11 @@
+# Project-local Streamlit settings.
+# headless = true skips the first-run "enter your email" prompt; run.sh opens
+# the browser itself instead.
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
